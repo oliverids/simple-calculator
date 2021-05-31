@@ -1,0 +1,76 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input[type="button"] {
+  cursor: pointer;
+  font-size: 16px;
+  color: #464646;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calc {
+  max-width: 340px;
+  margin: 60px auto 0 auto;
+  padding: 28px 14px;
+  background: #e4e4e4;
+  border-radius: 10px;
+}
+
+.calc #result {
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #464646;
+  font-weight: bold;
+}
+
+.calc .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.calc .btns input {
+  background: #c7ccd1;
+  border: none;
+  border-radius: 3px;
+  width: 72px;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+.calc .btns input:active {
+  background: #93979b;
+}
+
+.calc .btns #numero {
+  background: #afbfd6;
+}
+
+.calc .btns #numero:active {
+  background: #cbd7e7;
+}
+
+.calc .btns input[value="="] {
+  background: #87a0c4;
+}
+
+.calc .btns input[value="="]:active {
+  background: #7294c4;
+}
+/*# sourceMappingURL=style.css.map */
