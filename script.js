@@ -36,11 +36,10 @@ apaga.forEach(e => {
 // OPERAÇOES
 const soma = document.querySelector('input[value="+"]'),
     subt = document.querySelector('input[value="-"]'),
-    times = document.querySelector('input[value="x"]'),
+    times = document.querySelector('input[value="*"]'),
     porc = document.querySelector('input[value="%"]'),
     divi = document.querySelector('input[value="/"]'),
     operacoes = [soma, subt, times, divi, porc];
-    times.value = '*';
 
 operacoes.forEach(e => {
     e.addEventListener('click', Conta);
@@ -62,6 +61,8 @@ const final = document.querySelector('input[value="="]');
 final.addEventListener('click', () => {
     resultado.value = eval(resultado.value);
 });
+
+
 
 
 
